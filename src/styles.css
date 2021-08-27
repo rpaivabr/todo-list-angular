@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 0;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #d4d0d0;
+}
+
+li:hover .delete-item {
+    display: block;
+    background-color: #d4d0d0;
+}
+
+button {
+    background-color: #ffffff;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#todo-title {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    outline: 0;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+.item-title {
+    flex: 1;
+    font-size: 16px;
+}
+
+.delete-item {
+    display: none;
+}
